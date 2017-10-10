@@ -1,0 +1,25 @@
+// Екатерина Буглак, калькулятор
+//
+
+#include "stdafx.h"
+
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	cout << "Ведите первое число";
+	cin >> number_1;
+	cout << "Ведите второе число";
+	cin >> number_2;
+	cout << "число1 = " << number_1 << endl;
+	cout << "число2 = " << number_2 << endl;
+	cout << "число1 + число2 = " << number_1 + number_2 << endl;
+	cout << "число1 - число2 = " << number_1 - number_2 << endl;
+	cout << "число1 * число2 = " << number_1 * number_2 << endl;
+	cout << "число1 / число2 = " << number_1 / number_2 << endl;
+	cout << "число1 % число2 = " << number_1 % number_2 << endl;
+	cout << endl;
+
+    return 0;
+}
+
